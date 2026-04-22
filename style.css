@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: rgb(251, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Color-Generator-box {
+    width: 50%;
+    max-width: 450px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 0 10px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.Color-Generator-box .title {
+    text-align: center;
+    color: rgba(5, 5, 146, 0.863);
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.Color-Generator-box #colorDisplay {
+    height: 150px;
+    border: solid gray 2px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.Color-Generator-box #colorCode {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.Color-Generator-box .btn {
+     display: flex;
+     justify-content: space-between;
+}
+.btn #generatorBtn, .btn #copyBtn {
+    border: none;
+    background-color: rgba(5, 5, 146, 0.863);;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 45%;
+    cursor: pointer;
+}
+#generatorBtn:hover {
+    background-color: rgba(4, 4, 252, 0.863);
+}
+.btn #copyBtn:hover {
+    background-color: rgba(4, 4, 252, 0.863);
+}
