@@ -6,10 +6,11 @@
 }
 body {
     height: 100vh;
-    background-color: rgb(251, 255, 0);
+    background-color: rgb(168, 168, 155);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .Color-Generator-box {
     width: 50%;
@@ -29,9 +30,9 @@ body {
 }
 .Color-Generator-box #colorDisplay {
     height: 150px;
-    border: solid gray 2px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .Color-Generator-box #colorCode {
     background-color: black;
@@ -58,4 +59,15 @@ body {
 }
 .btn #copyBtn:hover {
     background-color: rgba(4, 4, 252, 0.863);
+}
+.copy-test {
+    height: 30px;
+    border: none;
+    margin-top: 15px;
+    width: 50%;
+    max-width: 450px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
 }
